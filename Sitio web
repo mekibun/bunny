@@ -111,7 +111,7 @@
     <section class="principal">
         <div class="izquierda">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh0-vZuyMvUJ5xEcL69qEbpSZigM7tRvnnhQ&s" alt="Imagen principal">
-            <p class="descripcion">Descripción de la imagen ubicada a la izquierda.</p>
+            <p class="descripcion">Imagina que hay una descripción de la imagen ubicada a la izquierda.</p>
         </div>
 
         <div class="derecha">

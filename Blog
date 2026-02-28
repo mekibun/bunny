@@ -110,7 +110,7 @@
     <!-- Sección principal -->
     <section class="principal">
         <div class="izquierda">
-            <img src="https://via.placeholder.com/400x300" alt="Imagen principal">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh0-vZuyMvUJ5xEcL69qEbpSZigM7tRvnnhQ&s" alt="Imagen principal">
             <p class="descripcion">Descripción de la imagen ubicada a la izquierda.</p>
         </div>
 

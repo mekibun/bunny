@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Sitio Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .seccion-principal {
+            display: flex;
+            padding: 40px;
+            gap: 40px;
+        }
+
+        .imagen-izquierda {
+            flex: 1;
+        }
+
+        .imagen-izquierda img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .descripcion {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .texto-derecha {
+            flex: 1;
+            display: flex;
+            align-items: center;
+        }
+
+        .galeria {
+            text-align: center;
+            padding: 40px;
+        }
+
+        .imagenes {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .imagenes img {
+            width: 200px;
+            border-radius: 10px;
+        }
+
+        .subseccion {
+            display: flex;
+            align-items: center;
+            padding: 40px;
+            gap: 40px;
+        }
+
+        .subseccion img {
+            width: 300px;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .seccion-principal,
+            .subseccion,
+            .imagenes {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mi Página Web</h1>
+    </header>
+
+    <section class="seccion-principal">
+        <div class="imagen-izquierda">
+            <img src="https://via.placeholder.com/400x300" alt="Imagen principal">
+            <p class="descripcion">Descripción de la imagen ubicada a la izquierda.</p>
+        </div>
+
+        <div class="texto-derecha">
+            <p>
+                Este es el texto que aparece al lado derecho de la imagen. 
+                Aquí puedes agregar información relevante, descripción del contenido 
+                o cualquier texto que desees mostrar en esta sección.
+            </p>
+        </div>
+    </section>
+
+    <section class="galeria">
+        <h2>Galería de Imágenes</h2>
+        <div class="imagenes">
+            <img src="https://via.placeholder.com/200" alt="Imagen 1">
+            <img src="https://via.placeholder.com/200" alt="Imagen 2">
+            <img src="https://via.placeholder.com/200" alt="Imagen 3">
+        </div>
+    </section>
+
+    <section class="subseccion">
+        <div>
+            <h3>Subtítulo de la sección</h3>
+            <p>
+                Este es el texto que acompaña la imagen en esta sección.
+                Puedes explicar detalles adicionales, información importante
+                o ampliar el contenido del sitio web.
+            </p>
+        </div>
+        <img src="https://via.placeholder.com/300x200" alt="Imagen secundaria">
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Mi Sitio Web - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
